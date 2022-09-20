@@ -1,0 +1,101 @@
+body{
+   margin:5px;
+   padding:5px;
+   line-height:1.15;
+   background-color: lightblue;
+   font-family: Arial, Helvetica, sans-serif;
+}
+ 
+h1{
+   margin:auto;
+   background-color: cornsilk;
+   color:darkblue;
+   font-size: 50px; 
+   text-align: center;
+   font-weight: bolder;
+   line-height: 90px;
+
+}
+h2, h3{
+   padding: 2px;
+   font-family: 'Times New Roman', Times, serif;
+   background-color: cornsilk;
+   color:darkblue;
+   font-weight: bold;
+   margin-top:15px;
+   text-align: center;
+   font-size: 20px;
+
+ 
+}
+.navigation ul {
+   text-align: center;
+   font: bold 10px "Helvetica Neue", Helvetica, Arial, sans-serif;
+   margin: 2px;
+   padding: 2px;
+   text-transform: capitalize;
+}
+.navigation li {
+   display: inline-flex;
+}
+.navigation a {
+   background: blueviolet;
+   background: linear-gradient(purple ,darkblue);
+   border-right: 2px dashed  whitesmoke;
+   color: #fff;
+   padding: 5px 10px;
+   text-decoration: none;
+   line-height: 20px;
+}
+.navigation a:hover {
+   background: yellow;
+   box-shadow: inset 1px  green;
+}
+ul {
+   text-align: center;
+   color: blueviolet;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   margin: 20px;
+}
+
+li {
+   line-height: 25px;
+}
+
+img {
+   border: 10px solid blue;
+   padding: 15px;
+   height: 300px;
+   
+}
+
+div {
+   margin: auto;
+}
+
+ul li{
+   margin: 10px;
+   text-align: left;
+}
+p {
+   font-size: 25px;
+
+}
+main {
+   margin: auto;
+}
+p{
+   background-color: yellowgreen;
+   padding: 5px;
+   color: black;
+}
+.top{
+   background-color: burlywood;
+   
+}
+.bottom{
+   background-color: lightpink;
+  
+
+}
