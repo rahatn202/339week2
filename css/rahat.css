@@ -67,6 +67,7 @@ img {
    border: 10px solid blue;
    padding: 15px;
    height: 300px;
+   width: 90%;
    
 }
 
@@ -97,5 +98,29 @@ p{
 .bottom{
    background-color: lightpink;
   
+
+}
+.gallery{
+   display: grid;
+   grid-template-columns: auto auto;
+   gap: 5px;
+
+  
+}
+.grid-item{
+
+   border: 5px solid darkorchid;
+   width: 90%;
+   align-items: center;
+   align-items: center;
+   justify-content: center;
+   justify-items: center;
+
+  
+}
+.gallery img:last-child{
+   grid-column-start: 1;
+   grid-column-end: 3;
+   
 
 }
