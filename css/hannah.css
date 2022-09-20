@@ -20,6 +20,11 @@ h2, h3 {
     background-color: rgba(203, 99, 227, 0.7);
 }
 
+img {
+   border: 10px solid #a741d3;
+   padding: 15px;
+}
+
 .navigation ul {
     text-align: center;
     font: bold 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -56,15 +61,8 @@ h2, h3 {
     line-height: 35px;
  }
 
- img {
-    border: 10px solid #a741d3;
-    padding: 15px;
- }
  .top {
     display: block;
-    margin: auto;
- }
- div {
     margin: auto;
  }
  body{
@@ -84,9 +82,21 @@ h2, h3 {
  }
  p {
     font-size: 25px;
-
+}
+ .gallery {
+   display: grid;
+   grid-template-columns: 300px 300px 300px;
+   width: 90%;
+   justify-items: center;
+   align-items: center;
  }
- main {
-    margin: auto;
+ .gallery img {
+   border: 5px dashed;
+   border-color: #FF2288;
+   width: 80%;
+ }
+ .item7 {
+   grid-column-start: 1;
+   grid-column-end: 4;
  }
  
